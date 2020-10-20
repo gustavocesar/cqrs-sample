@@ -1,9 +1,10 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Threading.Tasks;
 using CqrsSample.Domain.Handlers;
-using CqrsSample.Domain.Handlers.Contracts;
+using MediatR;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -28,8 +29,7 @@ namespace CqrsSample
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
-
-            services.AddTransient<ICreateCustomerHandler, CreateCustomerHandler>();
+            services.AddMediatR(Assembly.GetExecutingAssembly());
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

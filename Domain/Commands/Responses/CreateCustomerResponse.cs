@@ -1,7 +1,9 @@
 using System;
 
-namespace CqrsSample.Domain.Commands.Response {
-    public class CreateCustomerResponse {
+namespace CqrsSample.Domain.Commands.Response
+{
+    public class CreateCustomerResponse
+    {
         public Guid Id { get; set; }
         public string Name { get; set; }
         public string Email { get; set; }

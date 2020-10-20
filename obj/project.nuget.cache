@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "oP/QsVizFDaQp4B7HIv2k+MD8Fzx3omteyQ6to2wPvJRi5Z5J8c/ZyWY/WV/A5AZiSS0zd5xFCvkYJMFtlZoJA==",
+  "dgSpecHash": "daZD68S6YGbPeR1A8QoJV4w8Hl0+bgott2xO2FpCuJKrKmf1TqamCPsitE/d4bp6L0sD4h+X/jGAUfkyLIQ5FA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\gusta\\Source\\Repos\\CqrsSample\\CqrsSample.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\gustavo.cesar\\source\\repos\\cqrs-sample\\CqrsSample.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\gustavo.cesar\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
+    "C:\\Users\\gustavo.cesar\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\9.0.0\\mediatr.extensions.microsoft.dependencyinjection.9.0.0.nupkg.sha512",
+    "C:\\Users\\gustavo.cesar\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.0.0\\microsoft.extensions.dependencyinjection.abstractions.2.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

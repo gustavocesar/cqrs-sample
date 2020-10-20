@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gusta\\Source\\Repos\\CqrsSample\\CqrsSample.csproj": {}
+    "C:\\Users\\gustavo.cesar\\source\\repos\\cqrs-sample\\CqrsSample.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gusta\\Source\\Repos\\CqrsSample\\CqrsSample.csproj": {
+    "C:\\Users\\gustavo.cesar\\source\\repos\\cqrs-sample\\CqrsSample.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gusta\\Source\\Repos\\CqrsSample\\CqrsSample.csproj",
+        "projectUniqueName": "C:\\Users\\gustavo.cesar\\source\\repos\\cqrs-sample\\CqrsSample.csproj",
         "projectName": "CqrsSample",
-        "projectPath": "C:\\Users\\gusta\\Source\\Repos\\CqrsSample\\CqrsSample.csproj",
-        "packagesPath": "C:\\Users\\gusta\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gusta\\Source\\Repos\\CqrsSample\\obj\\",
+        "projectPath": "C:\\Users\\gustavo.cesar\\source\\repos\\cqrs-sample\\CqrsSample.csproj",
+        "packagesPath": "C:\\Users\\gustavo.cesar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gustavo.cesar\\source\\repos\\cqrs-sample\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\gusta\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\gustavo.cesar\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -40,6 +40,16 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -58,7 +68,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
         }
       }
     }
